@@ -35,7 +35,7 @@ button.on("click", function() {
     console.log(inputValue);
     console.log(tableData);
 
-    // Filter data with multiple filters
+    // Filter data with multiple filters (date, city, state, country, shape)
     var filteredData = tableData.filter(sighting => sighting.datetime === inputValue||
                                                     sighting.city === inputValue ||
                                                     sighting.state === inputValue ||
